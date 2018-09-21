@@ -16,6 +16,7 @@ CREATE OR REPLACE PACKAGE BODY CTS.PK_BIPUBLISHER AS
 /*Esto es un comentario de ejemplo para el CVS*/
 /*otro ejemplo*/
 /**otro ejemplo*/
+/*con git instalado*/
     t_http_req          := UTL_HTTP.begin_request('http://10.129.201.39:9030/wsBIpublisher/resources/biPublisher/generateReport', 'POST', 'HTTP/1.1');
 
 
