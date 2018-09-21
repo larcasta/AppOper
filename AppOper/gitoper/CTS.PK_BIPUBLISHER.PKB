@@ -18,6 +18,8 @@ CREATE OR REPLACE PACKAGE BODY CTS.PK_BIPUBLISHER AS
 /**otro ejemplo*/
 /*con git instalado*/
 /*otro comentario en git para comparar con el priero*/
+/*Prueba GERARDO MARTINEZ */
+/*otra PRUEBA*/
     t_http_req          := UTL_HTTP.begin_request('http://10.129.201.39:9030/wsBIpublisher/resources/biPublisher/generateReport', 'POST', 'HTTP/1.1');
 
 
